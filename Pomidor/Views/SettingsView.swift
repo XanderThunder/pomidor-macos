@@ -377,10 +377,6 @@ private struct AboutSection: View {
                 Text("Pomidor v1.0")
                     .font(.system(size: 9, weight: .medium, design: .rounded))
                     .foregroundStyle(.quaternary)
-
-                Link("Ervin Petrisevac", destination: URL(string: "https://www.linkedin.com/in/ervin-petrisevac/")!)
-                    .font(.system(size: 9, weight: .medium, design: .rounded))
-                    .foregroundStyle(.quaternary)
             }
             .frame(maxWidth: .infinity)
             .padding(.top, PomidorTheme.spacing4)
