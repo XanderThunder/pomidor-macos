@@ -25,6 +25,6 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: com.pomidor.app
         INFOPLIST_FILE: Pomidor/Info.plist
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
-        CODE_SIGN_ENTITLEMENTS: ""
+        CODE_SIGN_ENTITLEMENTS: Pomidor/Pomidor.entitlements
         ENABLE_HARDENED_RUNTIME: true
         COMBINE_HIDPI_IMAGES: true
